@@ -1,0 +1,38 @@
+:root {
+    --main-color: #4E2DF1;
+}
+
+.navigation{
+    background-color: #fff;  
+    position:-webkit-fixed;
+    position: fixed;
+    width: 100%;
+    bottom: -5px;
+    z-index: 100;
+    border-top: 1px solid #888888;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.link__item{
+    color: #888;
+}
+
+.nav__icon{
+    width: 30px;
+    height: 30px;
+}
+
+.active {
+    color: var(--main-color);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,171 @@
+.flight__btn {
+    cursor: pointer;
+    border: 1px solid #4E2DF1;
+    background-color: #fff;
+    color: #4E2DF1;
+    padding: 10px;
+    transition: all .3s ease-in-out ;
+    outline: none;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+
+
+.flight__btn:hover {
+    background-color: #4E2DF1;
+    color: #fff;
+}
+
+.last_flight{
+    margin-bottom: 350px;
+}
+
+.cancel__outline {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #E63C32;
+    padding: 10px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.rebook {
+    cursor: pointer;
+    border: 1px solid #4E2DF1;
+    background-color: transparent;
+    color: #4E2DF1;
+    padding: 10px;
+    border-radius: 35px;
+    outline: none;
+}
+
+
+.rebook:hover {
+    background-color: #4E2DF1;
+    color: #fff;
+}
+
+.rebook__block{
+    max-width: 90px;
+}
+
+.ticket__list{
+    margin-left: 0px;
+}
+
+.ticket__class_choose{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.ticket__class{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+}
+
+.ticket__item{
+    padding: 20px;
+    width: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+    margin-bottom: 16px;
+}
+
+.block__price{
+    margin-bottom: 35px;
+}
+
+.price__ticket{
+    font-weight: 600;
+    font-size: 24px;
+    color: #4E2DF1;
+    margin-right: 8px;
+}
+
+.ticket__class{
+    font-size: 18px;
+}
+
+.ticket__list_service{
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 20px;
+}
+
+.ticket__item_service{
+    display: flex;
+}
+
+.item__text span{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #352B67;   
+}
+
+.suitcase__checks{
+    margin-top: 20px;
+}
+
+.suitcase__check {
+    margin-top: 15px;
+}
+
+.suitcase__check__text{
+    position: relative;
+    bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+    margin-left: 10px;
+}
+
+.radio__box {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 20px;
+}
+
+.radio__style{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #D0CFCF;
+    border-radius: 50%;
+}
+
+.radio__box:checked + .radio__style::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url("../public/images/green__check.svg");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.radio__box:checked + .radio__style{
+    border-color: #00BDD3;
+}
+
+.radio__box:checked:disabled + .radio__style::before{
+    background-color: #ccc;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
